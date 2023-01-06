@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+}
+/* Common CSS */
+body{
+    font-family: 'Work Sans';
+}
+.margin_top{
+    margin-top: 100px;
+}
+main,.footer_area{
+    width: 1140px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Header Area*/
+header{
+    background-image: url(img/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+}
+.header_text {
+    width: 525px;
+    margin-right: 10%;
+}
+.header_text h1 {
+    font-size: 65px;
+    color: #fff;
+    font-weight: 800;
+}
+.header_text p {
+    color: #fff;
+    margin: 20px 0;
+}
+.header_text a, .call_to_text a, .newsletter button {
+    display: inline-block;
+    text-decoration: none;
+    color: #005FAC;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 15px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* About Us Section */
+.about_us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_text h2 {
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about_text {
+    width: 440px;
+}
+.about_text p {
+    color: #444343;
+    margin-bottom: 20px;
+}
+.about_text ul li{
+    margin-bottom: 10px;
+}
+.about_text ul li i{
+    color: #16D887;
+}
+
+/* My Resume */
+.resume_details{
+    display: flex;
+    gap: 60px;
+}
+.single_resume li{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.single_resume h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.single_resume li h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.single_resume li p{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+/* Skill Section */
+.section_heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section_heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.skils_list ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.skils_list ul li h3{
+    font-size: 30px;
+    color: #151414;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.skils_list ul li p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
+/* Call to Action Section */
+.call_to_action{
+    background-image: url(img/watch.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px; 
+    display: flex;
+    align-items: center;  
+    position: relative; 
+}
+.call_to_text{
+    position:relative;
+    z-index: 99;
+    width: 460px;
+    margin-left: 50px;
+}
+.call_to_text h2 {
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.call_to_action:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+}
+
+/* Footer Area */
+footer{
+    background-color: #151414;
+    margin-top:80px;
+    padding: 80px 0;
+}
+.footer_area{
+    display: flex;
+}
+.footer_about_us {
+    width: 40%;
+    margin-right: 35%;
+}
+.footer_about_us h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer_about_us p{
+    color: #fff;
+}
+.contact_info{
+    margin: 20px 0;
+}
+.contact_info li{
+    margin-top: 10px;
+    color: #fff;
+}
+.social_link{
+    display: flex;
+}
+.social_link li{
+    margin-right: 15px;
+}
+.newsletter h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.newsletter button {
+    color: #fff;
+    background-color: #005FAC;
+}
+.newsletter input{
+    width: 85%;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #151414;
+}
